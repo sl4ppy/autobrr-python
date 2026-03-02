@@ -10,4 +10,6 @@ RUN apk add --no-cache \
 # Add any extra pip packages here:
 # RUN pip3 install --break-system-packages some-package
 
+RUN mkdir -p /config && chown -R 1000:1000 /config
+
 USER 1000
