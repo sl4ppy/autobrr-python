@@ -1,4 +1,4 @@
-FROM ghcr.io/autobrr/autobrr:v1.73
+FROM ghcr.io/autobrr/autobrr:latest
 
 USER root
 
